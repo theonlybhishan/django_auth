@@ -1,0 +1,11 @@
+{% extends "user/base.html" %}
+{% comment %} {% load static %} {% endcomment %}
+{% block main %}
+    <h1>You have been LogOut</h1>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Need an Account <a  href="{% url 'register' %}">Log In</a>
+        </small>
+    </div>
+    
+{% endblock main %}
